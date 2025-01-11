@@ -2,10 +2,9 @@
 
 ## Short Description
 This web application enables users to analyze the sentiment of comments on YouTube videos. By simply providing a YouTube video URL, users can generate insightful sentiment analysis reports, visualize sentiment breakdowns, and explore word clouds of frequently used terms to gain a deeper understanding of audience engagement. By providing a YouTube video URL, users can generate sentiment analysis reports, visualize sentiment breakdowns, and view a word cloud of frequently used terms.
-https://github.com/
+
 ### Demo Video
-[[Demo]](https://raw.githubusercontent.comDevanshUpadhyay26/youtube_sentiment_analysis/blob/main/demo.mp4)
-> **Note:** If the video doesn't display, download and play it locally.
+[![Video Title](https://i.ytimg.com/an_webp/2vorlPgoayU/mqdefault_6s.webp?du=3000&sqp=CPW3i7wG&rs=AOn4CLDnD-epGrRd9R65T0bwX0I4XW_YAA)](https://youtu.be/2vorlPgoayU)
 
 
 ## Features
