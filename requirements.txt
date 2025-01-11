@@ -1,0 +1,10 @@
+Flask
+nltk
+matplotlib
+wordcloud
+beautifulsoup4
+numpy
+selenium
+joblib
+requests
+urllib3

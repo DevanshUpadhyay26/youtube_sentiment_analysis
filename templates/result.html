@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Results</title>
+</head>
+<body>
+    <h1>Sentiment Analysis Results</h1>
+
+    <p>Total Comments Analyzed: {{ n }}</p>
+    <p>Positive Comments: {{ np }}</p>
+    <p>Negative Comments: {{ nn }}</p>
+    <p>Neutral Comments: {{ nne }}</p>
+
+    <h2>Comment Sentiments</h2>
+    <ul>
+        {% for item in dic %}
+        <li>
+            <p><strong>Original Comment:</strong> {{ item['org_comment'] }}</p>
+            <p><strong>Cleaned Comment:</strong> {{ item['clean_comment'] }}</p>
+            <p><strong>Sentiment:</strong> {{ item['sent'] }}</p>
+            <!-- <p><strong>Score:</strong> {{ item['score'] }}</p> -->
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/wc">Word Cloud</a><br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
