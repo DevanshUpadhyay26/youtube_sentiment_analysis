@@ -19,7 +19,7 @@ Follow these steps to set up the project on your local machine. This app support
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/YourUsername/youtube-comment-sentiment.git
+    git clone https://github.com/DevanshUpadhyay26/youtube_sentiment_analysis.git
     cd youtube-comment-sentiment
     ```
 
